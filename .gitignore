@@ -1,0 +1,25 @@
+# Go build artifacts
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Diretório de dependências vendorizadas
+vendor/
+
+# Arquivos de ambiente e configuração
+.env
+
+# Arquivos de backup e temporários
+*~
+*.swp
+*.swo
+.DS_Store
+
+# IDEs e editores
+.vscode/
+.idea/
+*.code-workspace
